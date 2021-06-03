@@ -57,8 +57,6 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
     $_SERVER['HTTPS'] = 'on';
 
 require_once(ABSPATH . 'wp-settings.php');
-// define('WP_HOME','http://kokodb.bigw.ws/blog/');
-// define('WP_SITEURL','http://kokodb.bigw.ws/blog/');
 define('WP_HOME','http://localhost/blog/');
 define('WP_SITEURL','http://localhost/blog/');
 
